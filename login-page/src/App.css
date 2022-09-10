@@ -1,0 +1,55 @@
+.maindiv {
+  display: flex;
+}
+
+.BlueDiv {
+  width: 80vw;
+  background: blue;
+  height: 100vh;
+}
+
+.BlueDiv P {
+  color: aliceblue;
+  margin-left: 12px;
+  margin-right: auto;
+}
+.BlueDiv h2{
+  color: aliceblue;
+  margin-left: 12px;
+  margin-top: 40%;
+}
+.formdiv {
+    width: 22%;
+    margin-left: 12px;
+    font-size: 15px;
+    box-shadow: 3px 8px 8px 8px hsl(0deg 0% 0% / 38%);
+    margin-top: 12px;
+    height: 253px;
+    font-family: 'Oswald', sans-serif;
+    padding: 12px;
+    margin-top: 174px;
+    margin-left: -108px;
+    position: inherit;
+    background: white;
+    height: 366px;
+  
+}
+input{
+  border: none;
+    border-bottom: 2px solid;
+}
+.forgetpassworddiv{
+  display: flex;
+  gap: 30px;
+}
+.rememberCheck{
+  margin-top: 12px;
+}
+.submitButton{
+  background: blue;
+  color: white;
+  width: 95%;
+  height: 27px;
+  border: none;
+  border-radius: 14px
+}
